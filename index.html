@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="faucet.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@0.20.6/dist/web3.min.js" ></script>
+	<title>Simple Faucet</title>
+</head>
+
+<body>
+	<h1 id="title">WHIZ Faucet</h1>
+	<div id="description">
+	
+		
+	<div id="wrong_network"><strong>You are connected to the right testnet - great!</strong><br>Go ahead and claim some tokens!
+	</div>
+</div>
+<div id="faucet">
+	<h2>Your Address:</h2>
+	<div id="address">0x0000000000000000000000000000000000000000</div>
+
+	<h2>Your Ether Balance:</h2>
+	<div id="balanceETH">0</div>
+
+	<h2>Your Token Balance:</h2>
+	<div id="balanceToken">0</div>
+	<button id="requestButton" type="button" class="btn btn-primary" >Request Test Tokens</button>
+	<div id="warning"></div>
+</div>
+
+</body>
+
+</html>
